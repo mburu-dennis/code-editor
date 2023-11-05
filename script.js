@@ -9,3 +9,5 @@ function run() {
     
     output.contentWindow.eval(jsCode.value)
 }
+
+//  output.contentDocument.body.innerHTML = htmlCode.value + "<style>" + cssCode.value + "</style>"
